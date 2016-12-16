@@ -1,1 +1,1 @@
-# telerik
+# JavaScript Fundamentals Homeworks
