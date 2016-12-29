@@ -1,7 +1,6 @@
 function solve(args) {
     
     var number = +args[0];
-       
 
     for (var i = 1; i <= number; i++) {
 
