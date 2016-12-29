@@ -1,1 +1,1 @@
-## Telerik Academy Files
+## Telerik Academy Homeworks 
