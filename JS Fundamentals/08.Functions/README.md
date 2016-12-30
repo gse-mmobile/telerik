@@ -1,10 +1,10 @@
 JavaScript Fundamentals Homework
 ================================
 
-## [04. Operators and Expressions](./../04.Operators_and_Expressions/)
-## [05. Conditional Statements](./../05.Conditional_Statements/)
-## [06. Loops](./../06.Loops/)
-## [07. Arrays](./../07.Arrays/)
+### [04. Operators and Expressions](./../04.Operators_and_Expressions/)
+### [05. Conditional Statements](./../05.Conditional_Statements/)
+### [06. Loops](./../06.Loops/)
+### [07. Arrays](./../07.Arrays/)
 ### [08. Functions](./)
 
 1. [Say Hello](01.Say-Hello.js)
