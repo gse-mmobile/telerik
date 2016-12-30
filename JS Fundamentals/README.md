@@ -1,7 +1,7 @@
 Homework: Functions
 ===================
 
-### Problem List
+### Problem List (./08.Functions/)
 
 1. [Say Hello](./08.Functions/01.Say-Hello.js)
 1. [Get largest number](./02. Get largest number)
