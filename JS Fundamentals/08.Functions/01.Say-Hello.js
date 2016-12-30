@@ -6,8 +6,14 @@
 // Print Hello, <name>!
 
 function solve(args) {
+    
+    var inputName = args;
 
-    console.log('Hello, ' + args + '!');
+    console.log(printName(inputName));
+
+    function printName(name) {
+        return ('Hello, ' + name + '!');
+    }
 }
 
 solve(['Peter']);
