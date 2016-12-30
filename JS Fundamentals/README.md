@@ -1,6 +1,14 @@
 JS Fundamentals Homework:
 =========================
 
+
+### [06. Loops](./06.Loops/)
+
+1. [Numbers](./06.Loops/01.Numbers.js)
+1. [MMSA](./06.Loops/02.MMSA.js)
+1. [Matrix of numbers](./06.Loops/03.Matrix-of-numbers.js)
+1. [Hex to Decimal](./06.Loops/04.Hex-to-Decimal.js)
+
 ### [07. Arrays](./07.Arrays/)
 
 1. [Increase array members](./07.Arrays/01.Increase-array-members.js)
@@ -10,8 +18,7 @@ JS Fundamentals Homework:
 1. [Selection sort](./07.Arrays/05.Selection-sort.js)
 1. [Most frequent number](./07.Arrays/06.Most-frequent-number.js)
 1. [Binary search](./07.Arrays/07.Binary-search.js)
-10.[Prime numbers](./07.Arrays/10.Prime-numbers.js)
-
+1. [Prime numbers](./07.Arrays/10.Prime-numbers.js)
 
 ### [08. Functions](./08.Functions/)
 
