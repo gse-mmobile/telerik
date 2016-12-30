@@ -1,6 +1,16 @@
 JS Fundamentals Homework:
 =========================
 
+### [05. Conditional Statements](./05.Conditional_Statements/)
+
+1. [Exchange if greater](./05.Conditional_Statements/01.Exchange-if-greater.js)
+1. [Exchange if greater](./05.Conditional_Statements/02.Multiplication-Sign.js)
+1. [Exchange if greater](./05.Conditional_Statements/03.The-biggest-of-Three.js)
+1. [Exchange if greater](./05.Conditional_Statements/04.Sort-3-numbers.js)
+1. [Exchange if greater](./05.Conditional_Statements/05.Digit-as-word.js)
+1. [Exchange if greater](./05.Conditional_Statements/06.Quadratic-equation.js)
+1. [Exchange if greater](./05.Conditional_Statements/07.The-biggest-of-five-numbers.js)
+1. [Exchange if greater](./05.Conditional_Statements/08.Number-as-words.js)
 
 ### [06. Loops](./06.Loops/)
 
