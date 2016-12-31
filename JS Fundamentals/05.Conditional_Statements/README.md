@@ -16,3 +16,4 @@ JavaScript Fundamentals Homework
 #### [06. Loops](./../06.Loops/)
 #### [07. Arrays](./../07.Arrays)
 #### [08. Functions](./../08.Functions/)
+#### [09. Using Objects](./../09.Using_Objects/)

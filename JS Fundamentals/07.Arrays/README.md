@@ -16,3 +16,4 @@ JavaScript Fundamentals Homework
 1. [Prime numbers](./10.Prime-numbers.js)
 
 #### [08. Functions](./../08.Functions/)
+#### [09. Using Objects](./../09.Using_Objects/)

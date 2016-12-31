@@ -14,3 +14,5 @@ JavaScript Fundamentals Homework
 1. [Larger than neighbours](./05.Larger-than-neighbours.js)
 1. [First larger than neighbours](./06.First-larger-than-neighbours.js)
 1. [Sorting array](./07.Sorting-array.js)
+
+#### [09. Using Objects](./../09.Using_Objects/)
