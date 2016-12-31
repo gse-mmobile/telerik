@@ -8,15 +8,15 @@ function solve(args) {
 }
 ```
 
-<scr1>
-![Alt text](./scr1.png?raw=true "Optional Title")
+![Alt text](./scr1.png?raw=true "Screenshot 1")
 
-Изпращаме в BGCoder и получаваме 0 / 100, но избираме Details за да видим реално input-a.
+Изпращаме в BGCoder и получаваме 0 / 100, 
 
-<scr2>
+![Alt text](./scr2.png?raw=true "Screenshot 2")
 
+но избираме Details за да видим реално input-a.
 
-<scr3>
+![Alt text](./scr3.png?raw=true "Screenshot 3")
 
 В табличката "Your output" получаваме input-a на нулевия тест и можем спокойно да си го копираме и поставим в демо файла за да го имаме локално:
 
