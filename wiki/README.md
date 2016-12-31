@@ -38,7 +38,8 @@ $ node demo.js
 Резултатът е като в BGCoder, тоест input-a е пренесен правилно. Сега остава да го прихванем правилно и да проверим дали е така. Условието на задачата е следното:
 
 ```
-Write a method that returns the index of the first element in array that is larger than its neighbours, or -1, if there is no such element.
+Write a method that returns the index of the first element in array 
+that is larger than its neighbours, or -1, if there is no such element.
 
 Input
 On the first line you will receive the number N - the size of the array
@@ -100,9 +101,10 @@ $ node demo.js
 
 Резултатът е очакван, копирамe само функцията (без solve([....]);) и изпращамe в BGCoder.
 
-<scr4>
+![Alt text](./scr4.png?raw=true "Screenshot 4")
 
 100/100
 
-<scr5>
+![Alt text](./scr5.png?raw=true "Screenshot 5")
 
+Самото решаване на задачата не бе целта на това wiki, а запознаване с това как да си пренесем input-a от BGCoder и да го тесваме с console.log дали правилно го интерпретираме преди да започнем работа върху входящите данни. Надявам се е това е било полезно, както ми е полезно на мен.
