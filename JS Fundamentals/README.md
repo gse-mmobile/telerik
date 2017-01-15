@@ -57,3 +57,19 @@ JavaScript Fundamentals Homework
 1. [Planar coordinates](./09.Using_Objects/01.Planar-coordinates.js)
 1. [Remove elements](./09.Using_Objects/02.Remove-elements.js)
 1. [Youngest person](./09.Using_Objects/05.Youngest-person.js)
+
+### [11. Strings](./11.Strings/)
+
+1. [Reverse string](./11.Strings/01.Reverse-string.js)
+1. [Correct brackets](./11.Strings/02.Correct-brackets.js)
+1. [Sub-string in text](./11.Strings/03.Sub-string-in-text.js)
+1. [Parse tags](./11.Strings/04.Parse-tags.js)
+1. [nbsp](./11.Strings/05.nbsp.js)
+1. [Extract text from HTML](./11.Strings/06.Extract-text-from-HTML.js)
+1. [Parse URL](./11.Strings/07.Parse-URL.js)
+1. [Replace tags](./11.Strings/08.Replace-tags.js)
+
+### [12. Regular Expressions](./12.Regular_Expressions/)
+
+1. [Format with placeholders](./12.Regular_Expressions/1.Format-with-placeholders.js)
+1. [HTML Binding](./12.Regular_Expressions/2.HTML-Binding.js)
