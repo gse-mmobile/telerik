@@ -34,4 +34,4 @@ solve([
     '</html>'
 ]);
 
-console.log("Sample sitetextmore textand more...in body");
+// Sample sitetextmore textand more...in body
