@@ -31,8 +31,10 @@ solve ([
     '{ "name": "John", "age": 13 }',
     'My name is #{name} and I am #{age}-years-old'
 ]);
+// 'Hello, there! Are you John'
 
 solve ([
     '{ "name": "John" }',
     "Hello, there! Are you #{name}?"
 ]);
+// 'My name is John and I am 13-years-old'
