@@ -18,7 +18,7 @@ function solve(args) {
     
 	String.prototype.format = function(obj) {
 	    var result = this;
-    	for (i in obj) {
+            for (i in obj) {
         	result = result.replace(new RegExp('#{' + i + '}', 'g'), obj[i]);
     	}
         return result;
