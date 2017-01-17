@@ -13,7 +13,7 @@ function solve(args) {
     	resources,
     	startIndex;
   
-    if (url.indexOf('://') > -1) {
+    if (url.indexOf('://') !== -1) {
         protocol = url.split(':/')[0];
         server = url.split('/')[2];
         startIndex=url.indexOf(server)+server.length;
