@@ -1,0 +1,67 @@
+/* font size and face for the document */
+body { 
+    font-family: arial, sans-serif;
+    font-size: 11px;
+}
+
+/* collapsing table borders */
+table {
+    border-collapse: collapse;
+}
+
+/* setting up the space between table rows */
+td { 
+    padding-top: .7em;
+    padding-bottom: .7em;
+}
+
+/* setting up the color of the element to yellow */
+.yellow-text { 
+    color: lightgoldenrodyellow;
+}
+
+/* setting up the color of the element to orange */
+.orange-text {
+    color: darkorange;
+}
+
+ /* setting up the color of the element to red */
+.red-text {
+    color: red;
+}
+
+/* setting up the color of the element to silver */
+.silver-text { 
+    color: silver;
+}
+
+/* setting up the size and color of the context box */
+.container { 
+    background-color: gray;
+    color: white;
+    width: 300px;
+}
+
+/* setting up the size of the header */
+.ticket-id { 
+    font-size: 16px;
+}
+
+/* zero the top padding of elements */
+.no-padding-top { 
+    padding-top: 0em;
+}
+
+/* zero the bottom padding of elements */
+.no-padding-bot { 
+    padding-bottom: 0em;
+}
+
+/* green dot */
+.dot { 
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: mediumseagreen;
+}

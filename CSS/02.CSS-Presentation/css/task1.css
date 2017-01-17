@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Edwardian Script ITC';
+    src: url("EdwardianScriptITC.ttf");
+}
+
+body, section, p {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin-top: 17px;
+    margin-left: 20px;
+    width: 990px;
+}
+
+p {
+    font-family: Consolas, monaco, monospace;
+    font-size: 20px;
+    color: #0094ff;
+}
+
+p:first-line {
+    font-weight: bold;
+}
+
+p:first-letter {
+    font-family: Edwardian Script ITC;
+    font-size: 52pt;
+}

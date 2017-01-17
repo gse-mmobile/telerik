@@ -1,0 +1,66 @@
+/* document background */
+body { 
+    font-size: 17px;
+    background-color: #a9a9a9;
+}
+
+/* setting up header size and align */
+.header {
+    font-size: 48px;
+    text-align: center;
+}
+
+/* h1 size and color */
+h1 {
+    font-size: 30px;
+    color: #fafad2;
+}
+
+/* setting up paragraph font size */
+p {
+    font-size: 18px;
+}
+
+/* navbar links fonts size, align and removing dots */
+nav li {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+}
+
+/* setting up links */
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+/* setting up underlined links */
+.nav-link-underline {
+    color: white;
+}
+
+/* setting up links with background */
+.link-styled {
+    color: #fffffe;
+    background-color: #d3d3d3;
+    text-decoration: none;
+}
+
+/* setting up footer paragraph size */
+.footer-link {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+/* setting up footer paragraph size */
+footer p {
+    font-size: 14px;
+}
+
+/* setting up page footer size and align */
+footer.footer {
+    font-size: 16px;
+    text-align: center;
+}

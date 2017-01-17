@@ -1,0 +1,47 @@
+/* background color of the document */
+body {
+    background-color: black;
+}
+
+/* font size and face for the table */
+table {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+/* setting up the text align, border and padding */
+td, th {
+    border-left: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+}
+
+/* setting up the table header */
+th {
+    font-weight:normal;
+    background-color: #52b506;
+    color: white;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* setting up flag size */
+img {
+    width: 24px;
+    height: auto;
+}
+
+/* even table rows - white background */
+tr:nth-child(even) {
+    background-color: white;
+}
+
+/* odd table rows - yellow background */
+tr:nth-child(odd) {
+    background-color: #ececd8;
+}
+
+/* removing the border of each row first column */
+.first-col {
+    border-left: 0px;
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Forms and Frames 1</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        form {
+            width: 500px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table td {
+            border: 1px solid black;
+        }
+
+        table tr {
+            height: 32px;
+        }
+
+        table input {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        textarea {
+            width: 88%;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        #lastname {
+            width: 91%;
+        }
+
+        #firstname {
+            width: 91%;
+        }
+
+        #state {
+            width: 40px;
+        }
+
+        #city {
+            width: 94%;
+        }
+
+        #zip {
+            width: 25%;
+        }
+
+        #country {
+            width: 60%;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        #phone {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        #phone1 {
+            margin: 0px;
+        }
+
+        #email {
+            margin: 5px;
+            width: 90%;
+        }
+
+        #gender {
+            margin: 5px;
+            width: 20%;
+        }
+
+        #birth {
+            margin-left: 5px;
+        }
+
+        .lbl {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .footer {
+            background-color: #D1EDE1;
+            margin: 0px;
+            padding: 5px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="GET" action="#">
+        <table cellspacing="0" cellpadding="0">
+            <colgroup>
+                <col width="185px" />
+                <col width="320px" />
+            </colgroup>
+            <tr>
+                <td align=right>
+                    <span class="lbl"><b>Last Name</b></span>
+                </td>
+                <td colspan="3" align=left>
+                    <input type="text" name="lastname" id="lastname" value="Nakov" />
+                </td>
+            </tr>
+            <tr>
+                <td align=right>
+                    <span class="lbl"><b>First Name</b></span>
+                </td>
+                <td colspan="3" align=left>
+                    <input type="text" name="firstname" id="firstname" value="Svetlin" />
+                </td>
+            </tr>
+            <tr>
+                <td align=right>
+                    <span class="lbl"><b>Address</b></span>
+                </td>
+                <td colspan="3" align=left>
+                    <textarea rows="4" cols="35">17 Hristo Botev Str.
+floor 3, apt. 12
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align=right>
+                    <span class="lbl"><b>City</b></span>
+                </td>
+                <td align=left>
+                    <input type="text" name="city" id="city" value="Kaspichan" />
+                </td>
+                <td align=right>
+                    <span class="lbl"><b>State</b></span>
+                </td>
+                <td align=left>
+                    <input type="text" name="state" id="state" />
+                </td>
+            </tr>
+            <tr>
+                <td align=right>
+                    <span class="lbl"><b>Zip/Postal Code</b></span>
+                </td>
+                <td colspan="3" align=left>
+                    <input type="text" name="zip" id="zip" value="9325" />
+                </td>
+            </tr>
+
+            <tr>
+                <td align=right>
+                    <span class="lbl"><b>Country</b></span>
+                </td>
+                <td colspan="3" align=left>
+                    <select id="country">
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                    <span class="lbl"><b>Phone(country code, area code, number)</b></span>
+                </td>
+                <td colspan="3" align=left>
+
+                    <div class="input-group" id="phone">
+                        (+<input style="width:15% " class="form-control " name="phone1" id="phone1" value="359" />)
+                        <input style="width:15% " class="form-control " name="phone2" id="phone2" value="88" / />
+                        <input style="width:45% " class="form-control " name="phone3" id="phone3" value="8334343" />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align=right>
+                    <span class="lbl"><b>E-mail</b></span>
+                </td>
+                <td colspan="3" align=left>
+                    <input type="email" name="email" id="email" value="nakov@kaspichan.org" />
+                </td>
+            </tr>
+            <tr>
+                <td align=right>
+                    <span class="lbl"><b>Bidrth date</b></span>
+                </td>
+                <td colspan="3" align=left>
+
+                    <div class="input-group" id="birth">
+                        Month<input style="width:6% " class="form-control " name="birth1" id="birth1" value="06" />
+                        Day<input style="width:6% " class="form-control " name="birth2" id="birth2" value="14" />
+                        Year (4 digit)<input style="width:15% " class="form-control " name="birth3" id="birth3" value="1980" />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align=right>
+                    <span class="lbl"><b>Gender</b></span>
+                </td>
+                <td colspan="3" align=left>
+                    <select id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </td>
+            </tr>
+            <tr>
+                <td align=right>
+                    <span class="lbl"><b>Starting date</b></span>
+                </td>
+                <td colspan="3" align=left>
+                    <div>
+
+                        <input type="radio" name="date" id="date" value="Spring 2006" checked>
+                        <label for="Spring">Spring 2006</label>
+
+                        <input type="radio" name="date" id="date" value="Summer 2006">
+                        <label for="Summer">Summer 2006</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                    <b>Comments/Questions</b>
+                </td>
+                <td colspan="3" align=left>
+                    <textarea rows="5" cols="30">Please send me more information about the lodging.
+                    </textarea>
+                </td>
+            </tr>
+        </table>
+        <div class="footer" align=center>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Clear This Form" />
+        </div>
+
+    </form>
+</body>

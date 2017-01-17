@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 Calculator</title>
+	<style>
+		td {
+			background-color: #282C34;
+			color: silver;
+		}
+		button {
+			width: 81px;
+			height: 81px;
+			font-size: 32px;
+			background-color: #282C34;
+			color: silver;
+			border: 0px;
+		}
+		.button-zero {
+			width: 166px;
+			height: 81px;
+		}
+		input{
+			height: 80px;
+			font-size: 26px;
+			background-color: #282C34;
+			color: silver;
+			border: 0px;
+		}
+	</style>
+</head>
+<body>
+	<form id="calc">
+	<table border="1px">
+		<tr align=center>
+			<td colspan="4"><input type="text" dir="rtl" id="result" />
+		</tr>
+		<tr align=center>
+			<td><button type="button">1</button></td>
+			<td><button type="button">2</button></td>
+			<td><button type="button">3</button></td>
+			<td><button type="button">+</button></td>
+		</tr>
+		<tr align=center>
+			<td><button type="button">4</button></td>
+			<td><button type="button">5</button></td>
+			<td><button type="button">6</button></td>
+			<td><button type="button">-</button></td>
+		</tr>
+		<tr align=center>
+			<td><button type="button">7</button></td>
+			<td><button type="button">8</button></td>
+			<td><button type="button">9</button></td>
+			<td><button type="button">*</button></td>
+		</tr>
+		<tr align=center>
+			<td colspan="2"><button type="button" class="button-zero">0</button></td>
+			<td><button type="button">.</button></td>
+			<td><button type="button">/</button></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
