@@ -11,7 +11,7 @@
 
 function solve(args){
   
-    var arr=args[0].split(/[<|>)]/g),
+    var arr=args[0].split(/[<|>]/g),
         filter = ['orgcase'];
 
     for (i in arr) {
